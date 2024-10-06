@@ -4,7 +4,7 @@ const {
 } = require('sequelize');
 
 const { ENUMS }=require("../utils/common");
-const { SUCCESS, FAILED, PENDING } = ENUMS.NOTIFICATION_STATUS;
+const { SUCCESS, FAILED, PENDING } = ENUMS.NOTIFICATION_STATUS
 
 module.exports = (sequelize, DataTypes) => {
   class Ticket extends Model {
