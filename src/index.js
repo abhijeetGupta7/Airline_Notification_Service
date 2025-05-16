@@ -38,11 +38,6 @@ async function connectQueue() {
     }
 }
 
-async function name(params) {
-    
-}
-
-
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(express.text());
